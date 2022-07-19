@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Logo and text for logo is present]]>
+    </line>
+    <line>
+      <![CDATA[Sign up now link is present]]>
+    </line>
+    <line>
+      <![CDATA[Forget link is present]]>
+    </line>
+    <line>
+      <![CDATA[User id , password textBox fields are present]]>
+    </line>
+    <line>
+      <![CDATA[login button is available]]>
+    </line>
+    <line>
+      <![CDATA[Continue button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Forgot 2FA link is Visible]]>
+    </line>
+    <line>
+      <![CDATA[lockIcon is present]]>
+    </line>
+    <line>
+      <![CDATA[Logo is present on Login2 page]]>
+    </line>
+    <line>
+      <![CDATA[pin textbox is present]]>
+    </line>
+    <line>
+      <![CDATA[User Id is as per expected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-19T13:14:02 IST" name="Suite" finished-at="2022-07-19T13:15:10 IST" duration-ms="67354">
+    <groups>
+    </groups>
+    <test started-at="2022-07-19T13:14:02 IST" name="Test" finished-at="2022-07-19T13:15:10 IST" duration-ms="67354">
+      <class name="ModuleLogin_Test.Login2PageTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:39 IST" name="openBrowser" finished-at="2022-07-19T13:14:46 IST" duration-ms="7711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyContinueBtn()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:46 IST" name="verifyContinueBtn" finished-at="2022-07-19T13:14:47 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Continue button is enabled]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContinueBtn -->
+        <test-method is-config="true" signature="captureScreenShotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="captureScreenShotForFailedTestCases" finished-at="2022-07-19T13:14:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContinueBtn status=SUCCESS method=Login2PageTest.verifyContinueBtn()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082] output=Continue button is enabled]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotForFailedTestCases -->
+        <test-method signature="verifyForgot2FALink()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="verifyForgot2FALink" finished-at="2022-07-19T13:14:47 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Forgot 2FA link is Visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyForgot2FALink -->
+        <test-method is-config="true" signature="captureScreenShotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="captureScreenShotForFailedTestCases" finished-at="2022-07-19T13:14:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgot2FALink status=SUCCESS method=Login2PageTest.verifyForgot2FALink()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082] output=Forgot 2FA link is Visible]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotForFailedTestCases -->
+        <test-method signature="verifyLockIcon()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="verifyLockIcon" finished-at="2022-07-19T13:14:47 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[lockIcon is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLockIcon -->
+        <test-method is-config="true" signature="captureScreenShotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="captureScreenShotForFailedTestCases" finished-at="2022-07-19T13:14:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLockIcon status=SUCCESS method=Login2PageTest.verifyLockIcon()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082] output=lockIcon is present]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotForFailedTestCases -->
+        <test-method signature="verifyLogo()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="verifyLogo" finished-at="2022-07-19T13:14:47 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo is present on Login2 page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="captureScreenShotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="captureScreenShotForFailedTestCases" finished-at="2022-07-19T13:14:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=Login2PageTest.verifyLogo()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082] output=Logo is present on Login2 page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotForFailedTestCases -->
+        <test-method signature="verifyPinTextBox()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="verifyPinTextBox" finished-at="2022-07-19T13:14:47 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[pin textbox is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPinTextBox -->
+        <test-method is-config="true" signature="captureScreenShotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="captureScreenShotForFailedTestCases" finished-at="2022-07-19T13:14:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPinTextBox status=SUCCESS method=Login2PageTest.verifyPinTextBox()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082] output=pin textbox is present]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotForFailedTestCases -->
+        <test-method signature="verifyUserIdTextBox()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="verifyUserIdTextBox" finished-at="2022-07-19T13:14:47 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Id is as per expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserIdTextBox -->
+        <test-method is-config="true" signature="captureScreenShotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="captureScreenShotForFailedTestCases" finished-at="2022-07-19T13:14:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIdTextBox status=SUCCESS method=Login2PageTest.verifyUserIdTextBox()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082] output=User Id is as per expected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShotForFailedTestCases -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:ModuleLogin_Test.Login2PageTest@4efac082]" started-at="2022-07-19T13:14:47 IST" name="closeApp" finished-at="2022-07-19T13:14:47 IST" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- ModuleLogin_Test.Login2PageTest -->
+      <class name="ModuleLogin_Test.Login1PageTest1">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4]" started-at="2022-07-19T13:14:02 IST" name="openBrowser" finished-at="2022-07-19T13:14:35 IST" duration-ms="32463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="VerifyLogoAndText()[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4]" started-at="2022-07-19T13:14:35 IST" name="VerifyLogoAndText" finished-at="2022-07-19T13:14:35 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo and text for logo is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogoAndText -->
+        <test-method is-config="true" signature="screenshotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4]" started-at="2022-07-19T13:14:35 IST" name="screenshotForFailedTestCases" finished-at="2022-07-19T13:14:35 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLogoAndText status=SUCCESS method=Login1PageTest1.VerifyLogoAndText()[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4] output=Logo and text for logo is present]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotForFailedTestCases -->
+        <test-method signature="verifyForgotAndSignupNowLinks()[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4]" started-at="2022-07-19T13:14:35 IST" name="verifyForgotAndSignupNowLinks" finished-at="2022-07-19T13:14:35 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign up now link is present]]>
+            </line>
+            <line>
+              <![CDATA[Forget link is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyForgotAndSignupNowLinks -->
+        <test-method is-config="true" signature="screenshotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4]" started-at="2022-07-19T13:14:35 IST" name="screenshotForFailedTestCases" finished-at="2022-07-19T13:14:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotAndSignupNowLinks status=SUCCESS method=Login1PageTest1.verifyForgotAndSignupNowLinks()[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4] output=Sign up now link is present]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotForFailedTestCases -->
+        <test-method signature="verifyUnPasswordLoginBtn()[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4]" started-at="2022-07-19T13:14:35 IST" name="verifyUnPasswordLoginBtn" finished-at="2022-07-19T13:14:36 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User id , password textBox fields are present]]>
+            </line>
+            <line>
+              <![CDATA[login button is available]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUnPasswordLoginBtn -->
+        <test-method is-config="true" signature="screenshotForFailedTestCases(org.testng.ITestResult)[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4]" started-at="2022-07-19T13:14:36 IST" name="screenshotForFailedTestCases" finished-at="2022-07-19T13:14:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnPasswordLoginBtn status=SUCCESS method=Login1PageTest1.verifyUnPasswordLoginBtn()[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4] output=User id , password textBox fields are present]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotForFailedTestCases -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ModuleLogin_Test.Login1PageTest1@2dc54ad4]" started-at="2022-07-19T13:14:36 IST" name="closeBrowser" finished-at="2022-07-19T13:14:39 IST" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ModuleLogin_Test.Login1PageTest1 -->
+      <class name="ModuleHome_Test.KiteHomeUserIdTest">
+        <test-method is-config="true" signature="initializeApplication(java.lang.String)[pri:0, instance:ModuleHome_Test.KiteHomeUserIdTest@6bd61f98]" started-at="2022-07-19T13:14:47 IST" name="initializeApplication" finished-at="2022-07-19T13:14:57 IST" duration-ms="9209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:ModuleHome_Test.KiteHomeUserIdTest@6bd61f98]" started-at="2022-07-19T13:14:57 IST" name="loginToApplication" finished-at="2022-07-19T13:14:57 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyUserId()[pri:0, instance:ModuleHome_Test.KiteHomeUserIdTest@6bd61f98]" started-at="2022-07-19T13:14:57 IST" name="verifyUserId" finished-at="2022-07-19T13:15:07 IST" duration-ms="9999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserId -->
+        <test-method is-config="true" signature="logoutAndScreenShotForFailedTests(org.testng.ITestResult)[pri:0, instance:ModuleHome_Test.KiteHomeUserIdTest@6bd61f98]" started-at="2022-07-19T13:15:07 IST" name="logoutAndScreenShotForFailedTests" finished-at="2022-07-19T13:15:09 IST" duration-ms="1136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserId status=SUCCESS method=KiteHomeUserIdTest.verifyUserId()[pri:0, instance:ModuleHome_Test.KiteHomeUserIdTest@6bd61f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAndScreenShotForFailedTests -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ModuleHome_Test.KiteHomeUserIdTest@6bd61f98]" started-at="2022-07-19T13:15:09 IST" name="closeBrowser" finished-at="2022-07-19T13:15:10 IST" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ModuleHome_Test.KiteHomeUserIdTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
